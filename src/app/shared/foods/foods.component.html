@@ -1,0 +1,16 @@
+<div class="contenedor">
+  <div class="mainContainer">
+    <div class="frame">
+      <div *ngFor="let food of listFood" class="singleCard">
+        <img class="picture" src="{{food.picture}}.png" alt="">
+        <div class="name">{{food.title}}</div>
+        <div class="description">{{food.description}}</div>
+      </div>
+      <div class="singleCard">
+        <img class="picture" src="assets/images/foods/Kibus_receta_3_1.png" alt="">
+        <a href="" class="btnRecipe">Tu Receta <img class="iconButton" src="assets/images/foods/arrow2.svg" alt=""> </a>
+        <div class="description">Ayúdanos a decidir nuestra nueva receta</div>
+      </div>
+    </div>
+  </div>
+</div>

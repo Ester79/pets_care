@@ -1,0 +1,145 @@
+.contenedor {
+  width: 1440px;
+  height: 462px;
+  background-color: #FEF9F7;
+  justify-content: center;
+  display: flex;
+}
+
+.mainContainer {
+  background-color: #FFFFFF;
+  width: 1281px;
+  height: 462px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0px 14px 37px 19px rgba(126, 126, 126, 0.08);
+}
+
+.frame {
+  display: flex;
+  height: 295px;
+  width: 1100px;
+  margin-top: 83px;
+
+  justify-content: space-between;
+}
+
+.singleCard {
+  height: 292px;
+  width: 202px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.picture {
+  height: 200px;
+  width: 200px;
+}
+
+.picture:hover {
+  -webkit-transform: rotate(360deg);
+  transition: 1s;
+  background-color: lightsalmon;
+  border-radius: 100px;
+  border: 10px double cyan;
+  cursor: pointer;
+
+}
+
+.name {
+  font-family: montserratBold;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-align: center;
+
+}
+
+.description {
+  font-family: charlevoix;
+  font-size: 16px;
+  color: #767676;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.btnRecipe {
+  width: 130px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  background-color: #D5DBE1;
+  border-radius: 22.5px;
+  color: white;
+}
+
+.iconButton {
+  margin-left: 8px;
+}
+
+
+
+
+
+
+/*MOBILE RESPONSIVE Max widht: 768px*/
+@media screen and (max-width: 767px) {
+
+  .contenedor {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .mainContainer {
+    height: 398px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .frame {
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+    margin-left: 25px;
+    width: 350px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .singleCard {
+    display: inline-block;
+    width: 202px;
+
+  }
+
+  .description {
+    margin-top: 24px;
+    width: 199px;
+    display: block;
+  }
+
+  .btnRecipe {
+    margin-left: 45px;
+  }
+
+
+  .name {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}

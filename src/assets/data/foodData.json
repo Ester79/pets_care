@@ -1,0 +1,17 @@
+[
+  {
+    "picture": "assets/images/foods/Kibus_receta_3_1",
+    "title": "Pollo y Pimiento",
+    "description": "Energética, con ingredientes antioxidantes"
+  },
+  {
+    "picture": "assets/images/foods/Kibus_receta_1_1",
+    "title": "Salmón y Arroz",
+    "description": "Ipoalergénica, con Omega 3 y 5"
+  },
+  {
+    "picture": "assets/images/foods/Kibus_receta_2_1",
+    "title": "Cerdo y Calabaza",
+    "description": "Para dar vitalidad buena al sistema inmune"
+  }
+]

@@ -1,0 +1,37 @@
+@font-face {
+  font-family: kibusBold;
+  src: url(/assets/fonts/CharlevoixPro-Bold.otf);
+}
+
+@font-face {
+  font-family: charlevoix;
+  src: url(/assets/fonts/CharlevoixPro-Medium.otf);
+}
+
+
+@font-face {
+  font-family: montserratBold;
+  src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: montserratMedium;
+  src: url(/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: kibus;
+  src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .contenedor {
+    display: block;
+    width: 376px;
+    background-color: black;
+  }
+}

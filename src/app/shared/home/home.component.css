@@ -1,0 +1,184 @@
+.contenedor {
+  background-color: white;
+  width: 1440px;
+  height: 759.64px;
+  margin-bottom: 107px;
+}
+
+.mainContainer {
+  display: flex;
+  margin-left: 68px;
+}
+
+.logo {
+  width: 120px;
+  height: 54px;
+  margin-top: 68px;
+  margin-left: 68px;
+}
+
+.titleLeft {
+  font-family: kibusBold;
+  font-size: 72px;
+  line-height: 72px;
+  width: 710px;
+  height: 216px;
+  color: #000000;
+  margin-top: 101px;
+  margin-bottom: 32px;
+}
+
+.descriptionLeft {
+  font-family: montserratBold;
+  font-size: 22px;
+  line-height: 28px;
+  width: 652px;
+  height: 84px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 47px;
+  ;
+}
+
+.buttonsContainer {
+  width: 448px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reserve {
+  background-color: #EE7333;
+  border-radius: 28px;
+  width: 184px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: montserratMedium;
+  text-align: center;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserve:hover {
+  background-color: black;
+}
+
+.know {
+  background-color: white;
+  border-radius: 28px;
+  width: 244px;
+  color: #EE7333;
+  border: 1px solid #EE7333;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: montserratMedium;
+  text-align: center;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.know:hover {
+  background-color: black;
+  border: 3px solid #EE7333;
+}
+
+.arrowIcon {
+  margin-left: 16px;
+}
+
+
+.rightContainer {
+  width: 665px;
+  height: 691.64px;
+  margin-top: 68px;
+}
+
+
+
+
+
+
+
+/*MOBILE RESPONSIVE Max widht: 768px*/
+@media screen and (max-width: 767px) {
+
+  .contenedor {
+    width: 100%;
+  }
+
+  .mainContainer {
+    display: block;
+    width: 100%;
+    height: 791.92px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .logo {
+    height: 32px;
+    width: 72px;
+    margin-left: 24px;
+    margin-top: 25px;
+  }
+
+  .containerLeft {
+    margin-top: 0;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rightContainer {
+    margin-top: 0;
+    width: 100%;
+    margin-top: 39px;
+  }
+
+  .titleLeft {
+    font-size: 32px;
+    font-weight: 700;
+    width: 90%;
+    height: auto;
+    line-height: 32px;
+    margin: auto;
+    margin-bottom: 8px;
+  }
+
+  .descriptionLeft {
+    font-size: 16px;
+    font-weight: 700;
+    width: 90%;
+    height: auto;
+    line-height: 21.6px;
+    opacity: 0.6;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .buttonsContainer {
+    height: 116px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .reserve {
+    height: 50px;
+    width: 100%;
+  }
+
+  .know {
+    height: 50px;
+    width: 100%;
+  }
+}
