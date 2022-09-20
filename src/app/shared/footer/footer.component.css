@@ -36,11 +36,11 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
+  width: 380px;
 }
 
 .aboutDescriptions {
-  height: 120px;
+  /*height: 120px;*/
 }
 
 .policiesDescriptions {
@@ -51,6 +51,7 @@
 .aboutGroup {
   height: 154px;
   width: 380px;
+  margin-right: 105px;
 }
 
 .aboutTitle {
@@ -59,6 +60,7 @@
 
 .policiesGroup {
   width: 180px;
+  margin-right: 105px;
 }
 
 .policiesTitle {
@@ -70,6 +72,8 @@
   width: 137px;
   display: flex;
   justify-content: space-between;
+  gap: 40px;
+  margin-right: 105px;
 }
 
 .contactIcon {
@@ -84,7 +88,7 @@
 .groupIconsPayment {
   display: flex;
   justify-content: space-between;
-
+  height: 36px;
 }
 
 .paymentsTitle {
@@ -138,6 +142,7 @@
     font-size: 16px;
     line-height: 22px;
     height: 110px;
+    width: 100%;
   }
 
   .policiesGroup {
